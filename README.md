@@ -9,6 +9,10 @@ The state transitions of the traffic light are governed by the following rules:
 - Transition from Yellow to Red after 5 seconds
 - Transition from Red to Green after 20 seconds
 
+In addition to the automatic state transitions, the traffic light can also be controlled manually by clicking on the buttons. For example:
+- Clicking the Green button when the traffic light is in the Yellow state will skip the Red state and transition directly to the Green state.
+- Similarly, clicking the Yellow button when the traffic light is in the Red state will transition directly to the Yellow state.
+
 ## Demo
 
 You can view a live demo of the application hosted at https://techwithradhika.github.io/HacklabAssignment-1/
